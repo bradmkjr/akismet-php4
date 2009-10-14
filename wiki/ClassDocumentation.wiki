@@ -3,9 +3,9 @@
 
 If you are new to using classes in PHP you might want to read the [http://en.wikipedia.org/wiki/Object-oriented_programming Wikipedia object oriented progamming] article.
 
-The Akismet API documentation describes the low level interface. Its intended audience is authors of code such as the Akismet PHP4 class. As such, it contains some information you don't need to know or be concerned with, but it may help you understand what the PHP4 class is doing.
+The [http://akismet.com/development/api/ Akismet API] documentation describes the low level interface. Its intended audience is authors of code such as the Akismet PHP4 class. As such, it contains some information you don't need to know or be concerned with, but it may help you understand what the PHP4 class is doing.
 
-The Akismet PHP4 class takes care of all the connection and communications with the Akismet server and gives you a simpler high level interface.
+The Akismet PHP4 class takes care of the connection and communications with the Akismet server and gives you a simpler high level interface.
 ==Using the Class==
 *Example 1*, submitting a comment to be checked: 
 
