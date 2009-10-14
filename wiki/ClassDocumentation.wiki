@@ -1,7 +1,7 @@
 =PHP4 Akismet Class Documentation=
 ==Introduction==
 
-If you are new to using classes in PHP you might want to read the Wikipedia object oriented progamming article.
+If you are new to using classes in PHP you might want to read the [http://en.wikipedia.org/wiki/Object-oriented_programming Wikipedia object oriented progamming] article.
 
 The Akismet API documentation describes the low level interface. Its intended audience is authors of code such as the Akismet PHP4 class. As such, it contains some information you don't need to know or be concerned with, but it may help you understand what the PHP4 class is doing.
 
