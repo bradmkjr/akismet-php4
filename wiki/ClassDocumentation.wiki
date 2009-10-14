@@ -7,7 +7,7 @@ The Akismet API documentation describes the low level interface. Its intended au
 
 The Akismet PHP4 class takes care of all the connection and communications with the Akismet server and gives you a simpler high level interface.
 ==Using the Class==
-Example 1, submitting a comment to be checked: 
+*Example 1*, submitting a comment to be checked: 
 
 {{{
 include 'akismet.class.php'; 
@@ -45,7 +45,7 @@ if($akismet->errorsExist()) { // Returns true if any errors exist.
 }
 }}}
 
-Example 2, submitting a mis-diagnosed comment:
+*Example 2*, submitting a mis-diagnosed comment:
 
 You should incorporate the submitSpam() and submitHam() calls in your applications. Doing so helps Akisment improve its spam checking algorithms.
 
