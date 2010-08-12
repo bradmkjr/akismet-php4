@@ -1,6 +1,6 @@
 <?php
 /**
- * 01.07.2008 22:32:28est
+ * 08.11.2010 22:25:17est
  * 
  * Akismet PHP4 class
  * 
@@ -27,9 +27,9 @@
  *    }
  * </code>
  * 
- * @author Bret Kuhns {@link www.miphp.net}
- * @link http://www.miphp.net/blog/view/new_akismet_class/
- * @version 0.3.4
+ * @author Bret Kuhns {@link www.bretkuhns.com}
+ * @link http://code.google.com/p/akismet-php4
+ * @version 0.3.5
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
@@ -138,7 +138,7 @@ class AkismetHttpClient extends AkismetObject {
 		
 		if($this->con && !$this->isError(AKISMET_SERVER_NOT_FOUND)) {
 			$request  = 
-					strToUpper($type)." /{$this->akismetVersion}/$path HTTP/1.1\r\n" .
+					strToUpper($type)." /{$this->akismetVersion}/$path HTTP/1.0\r\n" .
 					"Host: ".((!empty($this->apiKey)) ? $this->apiKey."." : null)."{$this->host}\r\n" .
 					"Content-Type: application/x-www-form-urlencoded; charset=utf-8\r\n" .
 					"Content-Length: ".strlen($request)."\r\n" .
